@@ -1,0 +1,864 @@
+{
+  "$schema": "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "type": "object",
+  "title": "root",
+  "properties": {
+    "Accelerated and High-Performance Computing (FPGA / GPU)": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Computational BioEngineering": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Computer Vision": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "ESCAL_ Computer Systems (Embedded Systems / Robotics )": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Machine Learning and Data Mining": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Nextgen Networks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Secure and Reliable Computing (Formal Verification / Cryptography / Blockchain)": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Smart and Intelligent Systems (IoT / AI / Wearable Computing)": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "venue": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "abstract": {
+              "type": "string"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "author_info": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "profile": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "doi": {
+              "type": "string"
+            },
+            "is_dept_affiliated": {
+              "type": "boolean"
+            },
+            "preprint": {
+              "type": "string"
+            },
+            "pdf": {
+              "type": "string"
+            },
+            "presentation": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "codebase": {
+              "type": "string"
+            },
+            "researchgroups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "funding": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "api_url": {
+              "type": "string"
+            },
+            "edit_url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "inputType": "JSON"
+}
